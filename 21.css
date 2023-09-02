@@ -1,0 +1,83 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Merriweather', serif;
+    background-image: linear-gradient(red,black);
+    height: 100vh;
+}
+#cont{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    width: 30%;
+    margin: auto;
+
+}
+header{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-left: 50px;
+}
+header h1{
+    color: red;
+    font-size: 7rem;
+    margin: 0px;
+}
+header h1 span{
+    color: white;
+}
+main h2{
+    text-align: center;
+    background-color: white;
+    color: red;
+    border-radius: 2px;
+}
+main h4{
+    text-align: center;
+}
+main #btn{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+main #btn button{
+    
+    width: 20%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: greenyellow;
+    color: black;
+}
+main #btn #new{
+    background-color: orange;
+}
+img{
+    width: 100px;
+}
+main p{
+    text-align: center;
+    font-size: 2rem;
+    color: red;
+}
+main #total{
+    color: white;
+}
+#res{
+    text-align: center;
+    margin-top: 1rem;
+}
+#res button{
+    width: 20%;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    color: black;
+}
+
+
+
+
